@@ -80,7 +80,9 @@ RUN npm install --unsafe-perm -g \
     jasmine-spec-reporter \
     protractor-jasmine2-html-reporter \
     jasmine-allure-reporter \
-    protractor-console
+    protractor-console \
+    bower \
+    gulp-cli
 
 # Set the working directory
 # WORKDIR /protractor/
