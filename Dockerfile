@@ -47,7 +47,9 @@ RUN apt-get update -qqy \
     xvfb \
     firefox=45.0.2+build1-0ubuntu1 \
     google-chrome-stable \
-    default-jre
+    default-jre \
+    git \
+    psmisc
 
 RUN sudo apt-mark hold firefox
 
