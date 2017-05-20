@@ -82,7 +82,8 @@ RUN npm install --unsafe-perm -g \
     jasmine-allure-reporter \
     protractor-console \
     bower \
-    gulp-cli
+    gulp-cli \
+    angular/cli
 
 # Set the working directory
 # WORKDIR /protractor/
